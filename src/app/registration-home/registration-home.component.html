@@ -1,0 +1,614 @@
+<form [formGroup]="registrationForm">
+  <div class="col-12" style="background-color: rgb(29, 152, 166)">
+    <div class="container mb-3">
+      <div class="col-12">
+        <div class="col-12 text-center">
+          <h2 class="heading">Registration Form</h2>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Member ID
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="lnMemID"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                In Name
+              </span>
+              <input
+                type="text"
+                formControlName="InName"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                In DOB
+              </span>
+              <input
+                type="date"
+                formControlName="lnDOB"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Address 1
+              </span>
+              <input
+                type="text"
+                formControlName="address1"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Address 2
+              </span>
+              <input
+                type="text"
+                formControlName="address2"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Address 3
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="address3"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Joining Date
+              </span>
+              <input
+                type="date"
+                formControlName="joiningDate"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                In BirthDate
+              </span>
+              <input
+                type="date"
+                formControlName="lnBirthDate"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Email
+              </span>
+              <input
+                type="email"
+                class="form-control"
+                formControlName="eMail"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                In Mobile Number 1
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="lnMobile1"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                In Mobile Number 2
+              </span>
+              <input
+                type="text"
+                formControlName="lnMobile2"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Postal Code
+              </span>
+              <input
+                type="text"
+                formControlName="poCode"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Occuption
+              </span>
+              <input
+                type="text"
+                formControlName="occuption"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Lns Name
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="lnsName"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Ins DOB
+              </span>
+              <input
+                type="date"
+                formControlName="lnsDob"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Ins BirthDate
+              </span>
+              <input
+                type="date"
+                formControlName="lnsBirthDate"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Wedding Data
+              </span>
+              <input
+                type="date"
+                formControlName="weddingDate"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Ins Member ID
+              </span>
+              <input
+                type="text"
+                formControlName="InsMemID"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Ins Mobile 1
+              </span>
+              <input
+                type="text"
+                formControlName="lnsMobile1"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Ins Mobile 2
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="lnsMobile2"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 text-center mb-4">
+        <button
+          type="submit"
+          class="btn btn-primary"
+          (click)="registrationSubmit()"
+        >
+          {{ this.buttonLabel }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 text-center">
+    <h2>Details</h2>
+  </div>
+  <div class="col-12">
+    <table class="table mx-auto">
+      <thead>
+        <tr>
+          <th scope="col">Member ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Address</th>
+          <th scope="col">Joining Date</th>
+          <th scope="col">Birth Date</th>
+          <th scope="col">E-Mail</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">Postal</th>
+          <th scope="col">Occuption</th>
+          <th scope="col">InPhoto</th>
+          <th scope="col">InsPhoto</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let n of registryList">
+          <!-- <th scope="row">1</th> -->
+          <td>{{ n.lnMemID }}</td>
+          <td>{{ n.InName }}</td>
+          <td>{{ n.address1 }}{{ n.address2 }}{{ n.address3 }}</td>
+          <td>{{ n.joiningDate }}</td>
+          <td>{{ n.lnBirthDate }}</td>
+          <td>{{ n.eMail }}</td>
+          <td>{{ n.lnMobile1 }}</td>
+          <td>{{ n.poCode }}</td>
+          <td>{{ n.occuption }}</td>
+          <td>
+            <span
+              class="me-2"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              (click)="openModal(n)"
+              ><i class="bi bi-image"></i>
+            </span>
+          </td>
+          <td>
+            <span
+              class="me-2"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"
+              (click)="insModal(n)"
+              ><i class="bi bi-image"></i>
+            </span>
+          </td>
+          <td>
+            <span (click)="onEdit(n)" class="me-2"
+              ><i class="bi bi-pencil-square"></i
+            ></span>
+            <span class="me-2" (click)="delete(n)"
+              ><i class="bi bi-archive"></i>
+            </span>
+            <span
+              class="me-2"
+              data-bs-toggle="modal"
+              data-bs-target="#addModal"
+              (click)="addModal(n)"
+              ><i class="bi bi-plus-circle-fill"></i>
+            </span>
+
+            <!-- <span class="me-2" (click)="update()"><i class="bi bi-plus-circle-dotted"></i> -->
+
+            <!-- </span> -->
+          </td>
+        </tr>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="image" class="form-label">In-Photo</label>
+                  <input
+                    type="file"
+                    id="image"
+                    (change)="imageSelected($event)"
+                    class="form-control"
+                  />
+                  <div *ngIf="imagePreview">
+                    <img
+                      [src]="imagePreview"
+                      alt="Uploaded Image"
+                      style="width: 300px; height: auto"
+                    />
+                  </div>
+                  <div *ngIf="">
+                    <img
+                      [src]="selectImage?.InPhoto"
+                      [alt]=""
+                      style="width: 300px; height: auto"
+                    />
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                    (click)="close()"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    (click)="updataData()"
+                    data-bs-dismiss="modal"
+                  >
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="image" class="form-label">Ins-Photo</label>
+                  <input
+                    type="file"
+                    id="image"
+                    (change)="imageSelectedIns($event)"
+                    class="form-control"
+                  />
+                  <div *ngIf="imagePre">
+                    <img
+                      [src]="imagePre"
+                      alt="Uploaded Image"
+                      style="width: 300px; height: auto"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      [src]="selectImage?.InsPhoto"
+                      [alt]=""
+                      style="width: 300px; height: auto"
+                    />
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                    (click)="close()"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    (click)="updataData()"
+                    data-bs-dismiss="modal"
+                  >
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="addModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="image" class="form-label">Children</label>
+                  <div formArrayName="children">
+                    <div
+                      *ngFor="let child of childrens.controls; let i = index"
+                      [formGroupName]="i"
+                      class="row mb-3"
+                    >
+                      <div class="col-6">
+                        <input
+                          type="text"
+                          class="form-control"
+                          formControlName="name"
+                          placeholder="Child Name"
+                        />
+                      </div>
+                      <div class="col-6">
+                        <input
+                          type="date"
+                          class="form-control"
+                          formControlName="birthday"
+                          placeholder="Child Birthday"
+                        />
+                      </div>
+                      <div class="col-12 text-center mb-2">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          (click)="removeChild(i)"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-12 text-center mb-2">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        (click)="addChild()"
+                      >
+                        Add Child
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                    (click)="close()"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    (click)="updataData()"
+                    data-bs-dismiss="modal"
+                  >
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </tbody>
+    </table>
+  </div>
+</form>
+
+<!-- <div class="container mt-3">
+  <div class="form-group">
+    <label for="datepicker">Choose a date:</label>
+    <ngb-datepicker #d [(ngModel)]="model" [startDate]="{year: 2022, month: 1}" class="d-inline-block"></ngb-datepicker>
+  </div>
+</div> -->
+<input type="text" bsDatepicker />
+
+<mat-form-field>
+  <mat-label>Choose a date</mat-label>
+  <input matInput [matDatepicker]="picker" />
+  <mat-hint>MM/DD/YYYY</mat-hint>
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+<div class="card flex justify-content-center">
+  <p-calendar [(ngModel)]="date" view="month" dateFormat="mm/yy"></p-calendar>
+</div>
